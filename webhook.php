@@ -66,7 +66,7 @@
         $options = [
             'http' => [
                 'method' => 'POST',
-                'header' => "Content-type: application/json\r\nAuthorization: Bearer EAAMZBy2GZAr7ABO5NTdxvbodSqXWIeSmpi9YC72VGwK9GuEc1cJuZCvNiovnlZBQ6VhXlMCSkg94gY3VEgApwWAS25ogy0zRmFvwbtO1Y9E4f4z3LMESreO3L6bLYsnC3EUn78erXoIu29x3cmsSbwto2XBQ9T3cFBSbX5oiZCmdF6UwZCRvz1C6PwlFmuzQjoTfS8Gv4g1bthZBXGm9TmglxaxGY3ZAjhEsK0fDtizWl0kZD\r\n",
+                'header' => "Content-type: application/json\r\nAuthorization: Bearer token_que_la_misma_meta_te_da\r\n",
                 'content' => $data,
                 'ignore_errors' => true
             ]

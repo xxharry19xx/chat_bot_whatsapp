@@ -1,6 +1,6 @@
 <?php
     const TOKEN_CHATBOT = "CHATBOTPHPAPIMETA";
-    const WEBHOOK_URL = "link de tu servidor";
+    const WEBHOOK_URL = "";
 
     function verificarToken($req,$res){
         try{
@@ -96,7 +96,7 @@
                 "type" => "text",
                 "text" => [
                     "preview_url" => false,
-                    "body" => "🚀 Hola, visita mi web anderson-bastidas.com para más información.\n \n📌Por favor, ingresa un número #️⃣ para recibir información.\n \n1️⃣. Información del Curso. ❔\n2️⃣. Ubicación del local. 📍\n3️⃣. Enviar temario en pdf. 📄\n4️⃣. Audio explicando curso. 🎧\n5️⃣. Video de Introducción. ⏯️\n6️⃣. Hablar con AnderCode. 🙋‍♂️\n7️⃣. Horario de Atención. 🕜"
+                    "body" => "🚀 Hola, visita mi web tigre-soluciones.com para más información.\n \n📌Por favor, ingresa un número #️⃣ para recibir información.\n \n1️⃣. Información.❔\n2️⃣. Ubicación del local. 📍\n3️⃣. Enviar nuestro servicios en pdf. 📄\n4️⃣. Audio explicando como ubicarnos. 🎧\n5️⃣. Video de Introducción. ⏯️\n6️⃣. Hablar con el Tigre. 🙋‍♂️\n7️⃣. Horario de Atención. 🕜"
                 ]
             ]);
         }else if ($comentario=='1') {
@@ -120,7 +120,7 @@
                     "latitude" => -6.7478572200449065,
                     "longitude" => -79.70192661483645,
                     "name" => "Mercado de Tuman",
-                    "address" => "Frente a rayo sin soluciones"
+                    "address" => "Frente al colegio"
                 ]
             ]);
         }else if ($comentario=='3') {
@@ -131,7 +131,7 @@
                 "type" => "document",
                 "document"=> [
                     "link" => "http://s29.q4cdn.com/175625835/files/doc_downloads/test.pdf",
-                    "caption" => "Temario del Curso #001"
+                    "caption" => "listado de servicios"
                 ]
             ]);
         }else if ($comentario=='4') {
@@ -150,7 +150,7 @@
                 "to" => $numero,
                 "text" => array(
                     "preview_url" => true,
-                    "body" => "Introducción al curso! https://youtu.be/6ULOE2tGlBM"
+                    "body" => "mira nuestro video https://www.youtube.com/"
                 )
             ]);
         }else if ($comentario=='6') {
@@ -206,7 +206,7 @@
                 "type" => "text",
                 "text"=> [
                     "preview_url" => false,
-                    "body"=> "🚀 Hola, visita mi web anderson-bastidas.com para más información.\n \n📌Por favor, ingresa un número #️⃣ para recibir información.\n \n1️⃣. Información del Curso. ❔\n2️⃣. Ubicación del local. 📍\n3️⃣. Enviar temario en pdf. 📄\n4️⃣. Audio explicando curso. 🎧\n5️⃣. Video de Introducción. ⏯️\n6️⃣. Hablar con AnderCode. 🙋‍♂️\n7️⃣. Horario de Atención. 🕜"
+                    "body"=> "🚀 Hola, visita mi web tigre-soluciones.com para más información.\n \n📌Por favor, ingresa un número #️⃣ para recibir información.\n \n1️⃣. Información del Curso. ❔\n2️⃣. Ubicación del local. 📍\n3️⃣. Enviar temario en pdf. 📄\n4️⃣. Audio explicando curso. 🎧\n5️⃣. Video de Introducción. ⏯️\n6️⃣. Hablar con nuestro Tecnico. 🙋‍♂️\n7️⃣. Horario de Atención. 🕜"
                 ]
             ]);
         }

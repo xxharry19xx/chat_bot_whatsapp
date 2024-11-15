@@ -202,7 +202,7 @@
         $options = [
             'http' => [
                 'method' => 'POST',
-                'header' => "Content-type: application/json\r\nAuthorization: Bearer EAAMZBy2GZAr7ABO9zbxMl0kZAhBWIhPpJe4zmwvlp9ubYt1mKW6JVeyBEIc4KZA9LETnZBdDQFTS5icyZCnZBlEKbZAmSAjbsoZCZB0SHNcE5zCpVzIRilrHcW4tOf4yDlM8W9y8v6aTc4K1hahbZAtwHP463X2pNZCwU4HXsvU5naOc1aclnvmetS1XPZAoMEvPB8YBukXcfGq3c7ZB0iW2bDv7hqT3rq96qjJASegvaRMZCPThTAZD\r\n",
+                'header' => "Content-type: application/json\r\nAuthorization: Bearer token_que_la_misma_meta_te_da\r\n",
                 'content' => $data,
                 'ignore_errors' => true
             ]

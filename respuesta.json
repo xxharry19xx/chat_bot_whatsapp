@@ -1,0 +1,39 @@
+{
+    "object": "whatsapp_business_account",
+    "entry": [
+        {
+            "id": "256885854180882",
+            "changes": [
+                {
+                    "value": {
+                        "messaging_product": "whatsapp",
+                        "metadata": {
+                            "display_phone_number": "15550738587",
+                            "phone_number_id": "279602398567489"
+                        },
+                        "contacts": [
+                            {
+                                "profile": {
+                                    "name": "."
+                                },
+                                "wa_id": "51953959108"
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "from": "51953959108",
+                                "id": "wamid.HBgLNTE5NTM5NTkxMDgVAgASGCBEM0JDN0MyOEEyMEU0RDVBMjMxM0EwNjM0QjNFQzgxMgA=",
+                                "timestamp": "1730167791",
+                                "text": {
+                                    "body": "Hola desde cel"
+                                },
+                                "type": "text"
+                            }
+                        ]
+                    },
+                    "field": "messages"
+                }
+            ]
+        }
+    ]
+}

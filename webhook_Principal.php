@@ -1,6 +1,6 @@
 <?php
     const TOKEN_CHATBOT = "CHATBOTPHPAPIMETA";
-    const WEBHOOK_URL = "https://rojasmarkert.com/webhook.php";
+    const WEBHOOK_URL = "link de tu servidor";
 
     function verificarToken($req,$res){
         try{
